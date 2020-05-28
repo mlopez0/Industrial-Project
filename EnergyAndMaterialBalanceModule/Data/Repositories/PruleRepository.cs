@@ -11,7 +11,7 @@ namespace EnergyAndMaterialBalanceModule.Data.Repositories
     {
         public PrulesRepository(SEICBalanceContext context) : base(context)
         {
-
+            // Git comment
         }
 
         public async Task<IEnumerable<Prule>> GetAllRules()

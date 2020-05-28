@@ -8,6 +8,6 @@ namespace EnergyAndMaterialBalanceModule.Data.Repositories
     public interface IPruleRepository
     {
         Task<IEnumerable<Models.Prule>> GetAllRules();
-
+        // Git comment
     }
 }
